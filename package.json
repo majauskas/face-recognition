@@ -1,0 +1,11 @@
+{
+  "name": "face-recognition",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "author": "Mindaugas Ajauskas",
+  "readmeFilename": "README.md",  
+  "dependencies": {
+    "python-shell": "0.4.0",
+  }
+}
