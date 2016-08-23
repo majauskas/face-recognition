@@ -4,8 +4,6 @@ import time
 import cv2, os
 import sys
 import json
-import imutils
-import signal
 import numpy as np
 from PIL import Image
 
@@ -24,8 +22,6 @@ def shutdown(self, signum):
     camera.stop()
     camera.join()
     sys.exit(0)
-
-signal.signal(signal.SIGINT, shutdown)
 
 FACE_WIDTH = 92
 FACE_HEIGHT = 112
