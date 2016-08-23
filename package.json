@@ -6,6 +6,6 @@
   "author": "Mindaugas Ajauskas",
   "readmeFilename": "README.md",  
   "dependencies": {
-    "python-shell": "0.4.0",
+    "python-shell": "0.4.0"
   }
 }
